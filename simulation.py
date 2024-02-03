@@ -1,7 +1,7 @@
 import openai
 import streamlit as st
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 def get_completion(messages, model="gpt-4"):
     response = openai.chat.completions.create(
